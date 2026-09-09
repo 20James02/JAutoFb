@@ -1,0 +1,40 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Browser sessions and local profiles
+chrome_fb_profile/
+profiles/
+
+# Runtime data, credentials, exports, and local databases
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.txt
+*.xlsx
+*.json
+*.jsonl
+*.csv
+*.mp4
+
+# Local binaries and generated screenshots
+*.exe
+*.png
+*.jpg
+*.jpeg
+*.webp
+static/*.bak*
+
+# Scratch and tool output
+scratch_test_pool/
+.pytest_cache/
+.mypy_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
